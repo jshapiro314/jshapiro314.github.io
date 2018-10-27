@@ -1,0 +1,37 @@
+///
+/// Dimension by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Metadata */
+
+	.metadata {
+		overflow: hidden;
+
+		.left_side {
+			float: left;
+		}
+
+		.right_side {
+			float: right;
+			text-align: right;
+		}
+
+	}
+
+	@include breakpoint('<=xsmall') {
+		.metadata {
+			overflow: hidden;
+
+			.left_side {
+				float: none;
+			}
+
+			.right_side {
+				float: none;
+				text-align: left;
+			}
+
+		}
+	}
